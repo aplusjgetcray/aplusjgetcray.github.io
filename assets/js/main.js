@@ -68,8 +68,12 @@ $(document).ready(function(){
 			return futureFormattedDate
 		}
 		//
-		$("#countdown").countdown({
+		$("#minny").countdown({
 			date: "18 November 2022 5:30:00 GMT", // 1130p CST
+			format: "on"
+		});
+		$("#car").countdown({
+			date: "17 December 2022 18:00:00 GMT", // 1130p CST
 			format: "on"
 		});
 	});
