@@ -69,11 +69,11 @@ $(document).ready(function(){
 		}
 		//
 		$("#minny").countdown({
-			date: "29 December 2022 6:05:00 GMT", // 1205a CST
+			date: "30 December 2022 6:05:00 GMT", // 1205a CST
 			format: "on"
 		});
 		$("#car").countdown({
-			date: "12 December 2022 18:00:00 GMT", // 1130p CST
+			date: "28 December 2022 22:00:00 GMT", // 1130p CST
 			format: "on"
 		});
 	});
